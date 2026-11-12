@@ -65,6 +65,15 @@ body {
   animation: blink 1s steps(1) infinite;
 }
 
+#eat {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: min(96px, 24vw, 24vh);
+  height: auto;
+  pointer-events: none;
+}
+
 @keyframes blink {
   50% { opacity: 0; }
 }
