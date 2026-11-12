@@ -38,6 +38,7 @@ no.addEventListener('click', dodge);
 document.getElementById('yes').addEventListener('click', () => {
   txt.textContent = 'I genuinely hate you and I will never be your friend.';
   btns.style.visibility = 'hidden';
+  eat.hidden = false;
   eat.style.display = 'block';
   moveEat();
   window.setInterval(moveEat, 1000);
