@@ -35,6 +35,6 @@ no.addEventListener('click', dodge);
 
 // Yes button
 document.getElementById('yes').addEventListener('click', () => {
-txt.textContent = 'Yay! Best friends!';
+txt.textContent = 'I genuinely hate you and I will never be your friend.';
 btns.style.visibility = 'hidden';
 });
